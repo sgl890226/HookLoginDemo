@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:text="这个模块是用来检测用户隐私合规的，在用户未授权同意前，调用接口获取信息属于违规"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/setPackageName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/okButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ok"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
