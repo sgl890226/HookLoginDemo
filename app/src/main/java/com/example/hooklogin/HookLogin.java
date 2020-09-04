@@ -31,9 +31,10 @@ public class HookLogin implements IXposedHookLoadPackage {
         Log.e(TAG, "Load app packageName:" + lpparam.packageName);
         /*判断hook的包名*/
 
-        if (!MyApplication.pageName.equals(lpparam.packageName)) {
-            return;
-        }
+//        if (!MyApplication.pageName.equals(lpparam.packageName)  && !"com.enhance.kaomanfen.yasilisteningapp".equals(lpparam.packageName)
+//        && !"com.tal.tiku".equals(lpparam.packageName)) {
+//            return;
+//        }
 
 //        //固定格式
 //        XposedHelpers.findAndHookMethod(
